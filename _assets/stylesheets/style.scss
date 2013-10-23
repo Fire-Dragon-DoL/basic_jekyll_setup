@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/*------------------------------------*\
+    STYLE.CSS
+\*------------------------------------*/
+/**
+ *
+ * sass --watch style.scss:style.min.css --style compressed
+ *
+ * Here we pull in some variables, include the inuit.css framework, then add our
+ * project-specific components afterwards.
+ */
+
+
+/**
+ * Setup
+ */
+@import "vars";
+@import "hacks";
+@import "inuit.css/inuit";
+
+@import "compass/css3";
+@import "fonts";
+
+@import "ui/debug-helpers";
+@import "ui/main-menu";
+@import "ui/content";

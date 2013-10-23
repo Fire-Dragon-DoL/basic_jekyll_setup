@@ -1,4 +1,4 @@
-name: BasicJekyll
+name: Docmax
 dev:  true
 
 source:      .
@@ -9,7 +9,7 @@ include:     ['.htaccess']
 exclude:
   - Gemfile
   - Gemfile.lock
-  - run.sh
+  - run
   - tmp
 keep_files:  ['.git','.svn']
 timezone:    nil
@@ -73,6 +73,14 @@ redcloth:
   hard_breaks: true
 
 assets:
+  sources:
+    - _assets/bower_components
+    - _assets/fonts
+    - _assets/images
+    - _assets/javascripts
+    - _assets/stylesheets
+    # - _vendors/bootstrap/stylesheets
+    # - _vendors/bootstrap/javascripts
   # baseurl: //my.supercool.cdn.com/
   js_compressor:  uglifier
   css_compressor: sass

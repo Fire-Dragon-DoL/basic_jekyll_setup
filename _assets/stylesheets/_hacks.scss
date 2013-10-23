@@ -1,0 +1,23 @@
+/*------------------------------------*\
+    HACKS.SCSS
+\*------------------------------------*/
+/**
+ * Any hack required to fix a framework feature or an issue with css will be
+ * imported here
+ */
+
+/*------------------------------------*\
+    $HACKS
+\*------------------------------------*/
+/**
+ * All of hacks are initially deactivated, you can activate them in `_vars.scss`
+ */
+$use-grids-whitespace:         false!default;
+$use-disable-forced-scrollbar: false!default;
+
+/*------------------------------------*\
+    $IMPORTS
+\*------------------------------------*/
+
+@import "hacks/grids-whitespace";
+@import "hacks/disable-forced-scrollbar";

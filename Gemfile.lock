@@ -1,3 +1,11 @@
+GIT
+  remote: git://github.com/Fire-Dragon-DoL/sass.git
+  revision: 87fcd7ae522ec385bdc7bf74ca389f6b18b35bd9
+  branch: master
+  specs:
+    sass (3.3.0.rc.1)
+      listen (~> 1.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -72,8 +80,6 @@ GEM
     redcarpet (2.3.0)
     ref (1.0.5)
     safe_yaml (0.7.1)
-    sass (3.3.0.rc.1)
-      listen (~> 1.1.0)
     slim (2.0.1)
       temple (~> 0.6.6)
       tilt (>= 1.3.3, < 2.1)
@@ -110,6 +116,7 @@ DEPENDENCIES
   jekyll-assets (~> 0.7.3)
   jekyll-contentblocks (~> 0.0.2)
   jekyll-slim (~> 0.8.2)
+  sass (~> 3.3.0.rc.1)!
   slim (~> 2.0.1)
   therubyracer (~> 0.12.0)
   thor (~> 0.18.1)

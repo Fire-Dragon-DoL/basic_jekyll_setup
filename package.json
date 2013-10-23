@@ -1,0 +1,26 @@
+{
+  "main":              "http://localhost:4000",
+  "name":              "docmax",
+  "description":       "Programma gestionale Docmax",
+  "version":           "0.0.1",
+  "keywords":          [ "docmax", "management" ],
+  "dom_storage_quota": 1024,
+  "node-remote":       "*",
+  "window":
+  {
+    "title":     "Docmax",
+    "icon":      "favicon.png",
+    "toolbar":   true,
+    "frame":     true,
+    "width":     800,
+    "height":    500,
+    "position":  "center",
+    "min_width": 630,
+    "resizable": true
+  },
+  "webkit":
+  {
+    "plugin":     true,
+    "page-cache": true
+  }
+}

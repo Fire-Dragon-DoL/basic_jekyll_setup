@@ -1,0 +1,18 @@
+@if $use-disable-forced-scrollbar == true {
+
+/*------------------------------------*\
+    $DISABLED-FORCED-SCROLLBAR
+\*------------------------------------*/
+/**
+ * Simple hack to disable forced scrollbar from inuit.css
+ *
+ * ^Hack ^Scrollbar
+ *
+ */
+html
+{
+  overflow-y:         auto;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+}//endif
